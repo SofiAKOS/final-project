@@ -30,9 +30,6 @@ let змінні = {
 };
 console.log(змінні);
 
-let isAdult = confirm("Ви досягли повнолітнього віку?");
-
-console.log(isAdult);
 // Оголошення та ініціалізація змінних
 let firstName= "Jonny";
 let lastName= "Brandon";
