@@ -11,7 +11,7 @@
     <p>
         Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages and runtimes (such as C++, C#, Java, Python, PHP, Go, .NET). 
     </p>
-    <script>src="./base.js" </script>
+
     <script> 
     function showAlert() {
         let name = "Sofia";
@@ -27,5 +27,30 @@
     <button onclick="showAlert()">Your name</button>
     <button onclick="Alert()">Your surname</button>
     <script> src="./base.js" </script>
+    <script>
+     let isAdult = confirm("Ви досягли повнолітнього віку?");
+     console.log(isAdult);
+    </script>
+    <script>
+        let login= prompt("Please enter your login:");
+        let email = prompt("Please enter your email:");
+        let password = prompt("Please enter your password:");
+        var message = "Dear User, your email is " + email + ", your password is " + password;
+
+        console.log(message); 
+    </script>
+    <script>
+        let secondsInHour = 60 * 60;
+        let secondsInDay = 24 * secondsInHour;
+        let secondsInMonth = 30 * secondsInDay;
+
+console.log("Seconds in an hour: " + secondsInHour);
+console.log("Seconds in a day: " + secondsInDay);
+console.log("Seconds in a month: " + secondsInMonth);
+
+ </script>
 </body>
 </html>
+
+
+
